@@ -154,6 +154,12 @@ public class MainActivity extends AppCompatActivity {
                         mediumHard.setClickable(false);
                         hard.setClickable(false);
 
+                        softBtn.setClickable(true);
+                        softMediumBtn.setClickable(false);
+                        mediumBtn.setClickable(false);
+                        mediumHardBtn.setClickable(false);
+                        hardBtn.setClickable(false);
+
                     }
 
                     @Override
@@ -165,6 +171,12 @@ public class MainActivity extends AppCompatActivity {
                         medium.setClickable(true);
                         mediumHard.setClickable(true);
                         hard.setClickable(true);
+
+                        softBtn.setClickable(true);
+                        softMediumBtn.setClickable(true);
+                        mediumBtn.setClickable(true);
+                        mediumHardBtn.setClickable(true);
+                        hardBtn.setClickable(true);
                     }
                 }.start();
 
@@ -185,6 +197,12 @@ public class MainActivity extends AppCompatActivity {
                         medium.setClickable(false);
                         mediumHard.setClickable(false);
                         hard.setClickable(false);
+
+                        softBtn.setClickable(false);
+                        softMediumBtn.setClickable(true);
+                        mediumBtn.setClickable(false);
+                        mediumHardBtn.setClickable(false);
+                        hardBtn.setClickable(false);
                     }
 
                     @Override
@@ -196,6 +214,12 @@ public class MainActivity extends AppCompatActivity {
                         medium.setClickable(true);
                         mediumHard.setClickable(true);
                         hard.setClickable(true);
+
+                        softBtn.setClickable(true);
+                        softMediumBtn.setClickable(true);
+                        mediumBtn.setClickable(true);
+                        mediumHardBtn.setClickable(true);
+                        hardBtn.setClickable(true);
                     }
                 }.start();
 
@@ -216,6 +240,12 @@ public class MainActivity extends AppCompatActivity {
                         medium.setClickable(false);
                         mediumHard.setClickable(false);
                         hard.setClickable(false);
+
+                        softBtn.setClickable(false);
+                        softMediumBtn.setClickable(false);
+                        mediumBtn.setClickable(true);
+                        mediumHardBtn.setClickable(false);
+                        hardBtn.setClickable(false);
                     }
 
                     @Override
@@ -227,6 +257,12 @@ public class MainActivity extends AppCompatActivity {
                         medium.setClickable(true);
                         mediumHard.setClickable(true);
                         hard.setClickable(true);
+
+                        softBtn.setClickable(true);
+                        softMediumBtn.setClickable(true);
+                        mediumBtn.setClickable(true);
+                        mediumHardBtn.setClickable(true);
+                        hardBtn.setClickable(true);
                     }
                 }.start();
 
@@ -247,6 +283,12 @@ public class MainActivity extends AppCompatActivity {
                         medium.setClickable(false);
                         mediumHard.setClickable(false);
                         hard.setClickable(false);
+
+                        softBtn.setClickable(false);
+                        softMediumBtn.setClickable(false);
+                        mediumBtn.setClickable(false);
+                        mediumHardBtn.setClickable(true);
+                        hardBtn.setClickable(false);
                     }
 
                     @Override
@@ -258,6 +300,12 @@ public class MainActivity extends AppCompatActivity {
                         medium.setClickable(true);
                         mediumHard.setClickable(true);
                         hard.setClickable(true);
+
+                        softBtn.setClickable(true);
+                        softMediumBtn.setClickable(true);
+                        mediumBtn.setClickable(true);
+                        mediumHardBtn.setClickable(true);
+                        hardBtn.setClickable(true);
                     }
                 }.start();
 
@@ -278,6 +326,12 @@ public class MainActivity extends AppCompatActivity {
                         medium.setClickable(false);
                         mediumHard.setClickable(false);
                         hard.setClickable(false);
+
+                        softBtn.setClickable(false);
+                        softMediumBtn.setClickable(false);
+                        mediumBtn.setClickable(false);
+                        mediumHardBtn.setClickable(false);
+                        hardBtn.setClickable(true);
                     }
 
                     @Override
@@ -289,6 +343,12 @@ public class MainActivity extends AppCompatActivity {
                         medium.setClickable(true);
                         mediumHard.setClickable(true);
                         hard.setClickable(true);
+
+                        softBtn.setClickable(true);
+                        softMediumBtn.setClickable(true);
+                        mediumBtn.setClickable(true);
+                        mediumHardBtn.setClickable(true);
+                        hardBtn.setClickable(true);
                     }
                 }.start();
 
@@ -308,6 +368,12 @@ public class MainActivity extends AppCompatActivity {
                 medium.setClickable(true);
                 mediumHard.setClickable(true);
                 hard.setClickable(true);
+
+                softBtn.setClickable(true);
+                softMediumBtn.setClickable(true);
+                mediumBtn.setClickable(true);
+                mediumHardBtn.setClickable(true);
+                hardBtn.setClickable(true);
             }
         });
 
@@ -322,6 +388,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void stopOnClickListener(View view) {
+
+
 
 
     }
