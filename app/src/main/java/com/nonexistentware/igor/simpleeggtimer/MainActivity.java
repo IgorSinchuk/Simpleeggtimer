@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     boolean[] timerProcessing = { false };
     boolean[] timerStarts = { false };
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         timer = (TextView) findViewById(R.id.timer);
 
         //visibility
-        stop.setVisibility(View.VISIBLE);
+        stop.setVisibility(View.INVISIBLE);
 
 
         //buttons
@@ -159,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
                         mediumBtn.setClickable(false);
                         mediumHardBtn.setClickable(false);
                         hardBtn.setClickable(false);
+                        stop.setVisibility(View.VISIBLE);
 
                     }
 
@@ -374,6 +376,7 @@ public class MainActivity extends AppCompatActivity {
                 mediumBtn.setClickable(true);
                 mediumHardBtn.setClickable(true);
                 hardBtn.setClickable(true);
+                stop.setVisibility(View.INVISIBLE);
             }
         });
 
@@ -387,17 +390,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void stopOnClickListener(View view) {
-
-
-
-
-    }
-
-    public void startOnClickListener(View view) {
-
-        myCountDownTimer.start();
-    }
 
     public void timerNotification () {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
